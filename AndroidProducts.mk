@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/miku_maple_dsds.mk
+    $(LOCAL_DIR)/exthm_maple_dsds.mk
 
 COMMON_LUNCH_CHOICES := \
-    miku_maple_dsds-user \
-    miku_maple_dsds-userdebug \
-    miku_maple_dsds-eng
+    exthm_maple_dsds-user \
+    exthm_maple_dsds-userdebug \
+    exthm_maple_dsds-eng
