@@ -13,6 +13,13 @@ $(call inherit-product, vendor/exthm/config/phone.mk)
 # Vendor blobs
 $(call inherit-product, vendor/sony/maple_dsds/maple_dsds-vendor.mk)
 
+### BOOTANIMATION
+# vendor/exthm/config/phone.mk
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+# vendor/exthm/config/common.mk
+TARGET_BOOTANIMATION_HALF_RES := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := exthm_maple_dsds
 PRODUCT_DEVICE := maple_dsds
