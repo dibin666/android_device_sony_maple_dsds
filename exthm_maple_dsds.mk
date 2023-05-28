@@ -7,6 +7,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Device
 $(call inherit-product, device/sony/maple_dsds/device.mk)
 
+# EXTHMUI
+$(call inherit-product, vendor/exthm/config/phone.mk)
+
 # Vendor blobs
 $(call inherit-product, vendor/sony/maple_dsds/maple_dsds-vendor.mk)
 
