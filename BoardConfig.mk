@@ -17,6 +17,9 @@
 include device/sony/yoshino-common/BoardConfigPlatform.mk
 include vendor/sony/maple_dsds/BoardConfigVendor.mk
 
+### WPS
+include device/xiaomi/wps/BoardConfig.mk
+
 DEVICE_PATH := device/sony/maple_dsds
 
 PRODUCT_PLATFORM := yoshino
